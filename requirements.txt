@@ -1,0 +1,30 @@
+fastapi
+uvicorn
+pydantic
+pydantic-settings
+
+# LangChain
+langchain
+langchain-core
+langchain-openai
+langchain-weaviate
+langchain-community
+
+# Weaviate
+weaviate-client>=4.0.0
+
+# Fix gRPC/protobuf conflict
+protobuf>=4.21.0,<5.0.0
+grpcio>=1.60.0
+
+# Cross-encoder reranking
+sentence-transformers
+
+# Document loaders
+pypdf
+python-docx
+unstructured
+
+# Utilities
+python-multipart
+python-dotenv
